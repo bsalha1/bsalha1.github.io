@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to My Github Website!
 
-You can use the [editor on GitHub](https://github.com/bsalha1/bsalha1.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I develop software using mainly Java, and I work in a development team called ReliablePlugins. Some things I've made so far are a Discord API that allows the use of user tokens, an optimized Minecraft Server jar, and a bunch of plugins for Minecraft. I also created a website from the ground up using HTML, JavaScript and PHP at http://reliableplugins.com (if it's not up then we forgot to pay the host)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Support or Contact
+Don't hesitate to reach out to me if you have any questions about anything.  
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bsalha1/bsalha1.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Email: bsalha1@gmail.com  
+Discord: Reachy#8217  
+ReliablePlugins Support Discord: https://discord.gg/F2YWasn  
