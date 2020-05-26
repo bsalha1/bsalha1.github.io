@@ -1,0 +1,33 @@
+
+.error
+{
+  color: #a94442;
+  background: #f2dede;
+  text-align: center;
+  outline: 1px solid #a94442;
+  position: relative;
+  width: 100%;
+}
+
+body, html
+{
+  height: 100%;
+  width: 100%;
+}
+
+.full
+{
+  padding: 0 !important;
+  margin: 0 auto !important;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.success
+{
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
