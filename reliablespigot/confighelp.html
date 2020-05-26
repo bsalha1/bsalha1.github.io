@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ReliableSpigot Config Help</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../lib/css_bootstrap3.4.0.css">
+    <link rel="stylesheet" href="../lib/style.css">
+    <link rel="stylesheet" href="../css/index_style.css">
+    <link rel="stylesheet" media="screen" href="../particles/particles_style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+                <img src="../images/favicon.png" alt="">
+            </a>
+        </div>
+
+        <!-- Main Pages -->
+        <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="confighelp.html">Config Help</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- End Navbar -->
+
+<!-- Container -->
+<div class="container">
+    <div class="row">
+
+        <!-- Center Box -->
+        <div class="col-lg-10 col-md-10 col-sm-10">
+            <div class="jumbotron">
+                <h2>ReliableSpigot Config Help</h2>
+
+                <h3>Non-World Settings</h3>
+                <table class="table table-bordered table-hover table-striped">
+                    <thead class="thead-dark">
+                    <tr>
+                        <th bgcolor="#16bd83" scope="col">Field</th>
+                        <th bgcolor="#16bd83" scope="col">Default</th>
+                        <th bgcolor="#16bd83" scope="col">Meaning</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>tnt-optimized</td>
+                        <td>true</td>
+                        <td>Enables optimized TNT and explosion algorithms</td>
+                    </tr>
+                    <tr>
+                        <td>redstone-optimized</td>
+                        <td>true</td>
+                        <td>Enables optimized redstone algorithms</td>
+                    </tr>
+                    <tr>
+                        <td>clean-printer</td>
+                        <td>true</td>
+                        <td>Enables optimized Schematica printer algorithms</td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#16bd83"></td>
+                        <td bgcolor="#16bd83"></td>
+                        <td bgcolor="#16bd83"></td>
+                    </tr>
+                    <tr>
+                        <td>spawner.spawn-radius</td>
+                        <td>4</td>
+                        <td>How far the mobs can spawn away from the spawner</td>
+                    </tr>
+                    <tr>
+                        <td>spawner.player-afk-radius</td>
+                        <td>8</td>
+                        <td>How far a player can stand near a spawner to work</td>
+                    </tr>
+                    <tr>
+                        <td>spawner.need-players-nearby</td>
+                        <td>true</td>
+                        <td>If a player needs to be near a spawner for it to work</td>
+                    </tr>
+                    <tr>
+                        <td>spawner.minimum-spawn-ticks</td>
+                        <td>200</td>
+                        <td>The least amount of ticks to spawn a mob from a spawner</td>
+                    </tr>
+                    <tr>
+                        <td>spawner.maximum-spawn-ticks</td>
+                        <td>800</td>
+                        <td>The most amount of ticks to spawn a mob from a spawner</td>
+                    </tr>
+                    <tr>
+                        <td>spawner.spawn-count</td>
+                        <td>4</td>
+                        <td>The amount of mobs to spawn per spawner activate</td>
+                    </tr>
+                    <tr>
+                        <td>spawner.max-nearby-entities</td>
+                        <td>6</td>
+                        <td>The amount of entities that can be near in order for the spawner to work</td>
+                    </tr>
+                    <tr>
+                        <td>spawner.tick-rate</td>
+                        <td>1</td>
+                        <td>How often the server ticks the spawner (increase to spawn faster)</td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#16bd83"></td>
+                        <td bgcolor="#16bd83"></td>
+                        <td bgcolor="#16bd83"></td>
+                    </tr>
+                    <tr>
+                        <td>config-version</td>
+                        <td>1</td>
+                        <td>The version of the config to use (this doesn't do anything)</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <h4>PvP Settings</h4>
+                <table class="table table-bordered table-hover table-striped">
+                    <thead>
+                    <tr>
+                        <th bgcolor="#16bd83" scope="col">Field</th>
+                        <th bgcolor="#16bd83" scope="col">Default</th>
+                        <th bgcolor="#16bd83" scope="col">Meaning</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>friction</td>
+                        <td>2.0</td>
+                        <td>The friction after knockback</td>
+                    </tr>
+                    <tr>
+                        <td>verticle</td>
+                        <td>0.4</td>
+                        <td>Verticle knockback strength</td>
+                    </tr>
+                    <tr>
+                        <td>verticle-max</td>
+                        <td>0.4</td>
+                        <td>The maximum strength of verticle knockback</td>
+                    </tr>
+                    <tr>
+                        <td>horizontal</td>
+                        <td>0.4</td>
+                        <td>Verticle knockback strength</td>
+                    </tr>
+                    <tr>
+                        <td>disable-sprint-knockback</td>
+                        <td>false</td>
+                        <td>Disables sprinting knockback</td>
+                    </tr>
+                    <tr>
+                        <td>extra-sprint-knockback</td>
+                        <td>0</td>
+                        <td>Adds extra knockback while sprinting</td>
+                    </tr>
+                    <tr>
+                        <td>unbreakable-armor</td>
+                        <td>false</td>
+                        <td>Toggle if armor should take durability damage</td>
+                    </tr>
+                    <tr>
+                        <td>sword-armor-damage</td>
+                        <td>2</td>
+                        <td>The amount of damage a sword does to an armor's durability</td>
+                    </tr>
+                    <tr>
+                        <td>axe-armor-damage</td>
+                        <td>3</td>
+                        <td>The amount of damage an axe does to an armor's durability</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <h4>Cannon Settings</h4>
+                <table class="table table-bordered table-hover table-striped">
+                    <thead>
+                    <tr>
+                        <th bgcolor="#16bd83" scope="col">Field</th>
+                        <th bgcolor="#16bd83" scope="col">Default</th>
+                        <th bgcolor="#16bd83" scope="col">Meaning</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>tnt-invisible</td>
+                        <td>false</td>
+                        <td>Toggle if tnt should be visible</td>
+                    </tr>
+                    <tr>
+                        <td>sand-invisible</td>
+                        <td>false</td>
+                        <td>Toggle if sand should be visible</td>
+                    </tr>
+                    <tr>
+                        <td>drop-items-on-explosion</td>
+                        <td>true</td>
+                        <td>Toggle if items should drop after being exploded</td>
+                    </tr>
+                    <tr>
+                        <td>tnt-damage</td>
+                        <td>false</td>
+                        <td>Toggle if players are damaged by tnt explosions</td>
+                    </tr>
+                    <tr>
+                        <td>tnt-particles</td>
+                        <td>true</td>
+                        <td>Toggle whether TNT particles are visible</td>
+                    </tr>
+                    <tr>
+                        <td>tnt-sound</td>
+                        <td>true</td>
+                        <td>Toggle whether TNT sounds are sent</td>
+                    </tr>
+                    <tr>
+                        <td>piston-sound</td>
+                        <td>true</td>
+                        <td>Toggle whether piston sounds are sent</td>
+                    </tr>
+                    <tr>
+                        <td>dispenser-sound</td>
+                        <td>true</td>
+                        <td>Toggle whether dispenser sounds are sent</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <h4>Mobs Settings</h4>
+                <table class="table table-bordered table-hover table-striped">
+                    <thead>
+                    <tr>
+                        <th bgcolor="#16bd83" scope="col">Field</th>
+                        <th bgcolor="#16bd83" scope="col">Default</th>
+                        <th bgcolor="#16bd83" scope="col">Meaning</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>iron-golem-fall-damage</td>
+                        <td>true</td>
+                        <td>Toggle if IronGolems take fall damage</td>
+                    </tr>
+                    <tr>
+                        <td>iron-golem-drop-poppy</td>
+                        <td>true</td>
+                        <td>Toggle if IronGolems should drop poppies</td>
+                    </tr>
+                    <tr>
+                        <td>iron-golem-ingot-min</td>
+                        <td>3</td>
+                        <td>Minimum amount of iron ingots that drop if an IronGolem is killed</td>
+                    </tr>
+                    <tr>
+                        <td>iron-golem-ingot-max</td>
+                        <td>6</td>
+                        <td>Maximum amount of iron ingots that drop if an IronGolem is killed</td>
+                    </tr>
+                    <tr>
+                        <td>pigzombie-drops-rotten-flesh</td>
+                        <td>true</td>
+                        <td>Toggle if PigZombie should drop rotten flesh</td>
+                    </tr>
+                    <tr>
+                        <td>pigzombie-drops-ingots</td>
+                        <td>false</td>
+                        <td>Toggle if PigZombies should drop gold ingots rather than nuggets</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <h4>Potions Settings</h4>
+                <table class="table table-bordered table-hover table-striped">
+                    <thead>
+                    <tr>
+                        <th bgcolor="#16bd83" scope="col">Field</th>
+                        <th bgcolor="#16bd83" scope="col">Default</th>
+                        <th bgcolor="#16bd83" scope="col">Meaning</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>strength-potion-multiplier</td>
+                        <td>2.5</td>
+                        <td>How much your damage is multiplied with strength potion</td>
+                    </tr>
+                    <tr>
+                        <td>speed-potion-multiplier</td>
+                        <td>0.2</td>
+                        <td>How much faster you move with speed potion</td>
+                    </tr>
+                    <tr>
+                        <td>regeneration-per-tick</td>
+                        <td>1.0</td>
+                        <td>How much health you regenerate per tick with regeneration (1.0 = half heart)</td>
+                    </tr>
+                    <tr>
+                        <td>healing-potion-heal</td>
+                        <td>4</td>
+                        <td>How many half-hearts of healing you take after using health potion</td>
+                    </tr>
+                    <tr>
+                        <td>slow-potion-multiplier</td>
+                        <td>-0.15</td>
+                        <td>How much faster you move with slow potion</td>
+                    </tr>
+                    <tr>
+                        <td>harming-potion-damage</td>
+                        <td>6</td>
+                        <td>How many half-hearts of damage you take after using harming potion</td>
+                    </tr>
+                    <tr>
+                        <td>poison-dmg-per-tick</td>
+                        <td>1.0</td>
+                        <td>How many half-hearts of damage you take per tick of poison</td>
+                    </tr>
+                    <tr>
+                        <td>wither-dmg-per-tick</td>
+                        <td>1.0</td>
+                        <td>How many half-hearts of damage you take per tick of wither</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+
+                <h4>Particles Settings</h4>
+                <table class="table table-bordered table-hover table-striped">
+                    <thead>
+                    <tr>
+                        <th bgcolor="#16bd83" scope="col">Field</th>
+                        <th bgcolor="#16bd83" scope="col">Default</th>
+                        <th bgcolor="#16bd83" scope="col">Meaning</th>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td>water-particles</td>
+                        <td>true</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>explosion-particles</td>
+                        <td>true</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>smoke-particles</td>
+                        <td>true</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>block-particles</td>
+                        <td>true</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>item-durability-break-particles</td>
+                        <td>true</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>potion-particles</td>
+                        <td>true</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>bow-particles</td>
+                        <td>true</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>spawner-particles</td>
+                        <td>true</td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <h4>Miscellaneous Settings</h4>
+                <table class="table table-bordered table-hover table-striped">
+                    <thead>
+                    <tr>
+                        <th bgcolor="#16bd83" scope="col">Field</th>
+                        <th bgcolor="#16bd83" scope="col">Default</th>
+                        <th bgcolor="#16bd83" scope="col">Meaning</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>cactus-preage</td>
+                        <td>0</td>
+                        <td>How much age the cactus spawns with (max 14; 15 = grow up 1 block)</td>
+                    </tr>
+                    <tr>
+                        <td>disable-water-break-redstone</td>
+                        <td>true</td>
+                        <td>Toggle whether waterflow will break redstone (repeaters, wires, comparators etc.)</td>
+                    </tr>
+                    <tr>
+                        <td>disable-cobble-obsidian-from-lava</td>
+                        <td>false</td>
+                        <td>Toggle whether cobble/obsidian forms when water touches lava</td>
+                    </tr>
+                    <tr>
+                        <td>disable-nether-portal-creation</td>
+                        <td>false</td>
+                        <td>Toggle whether nether portals can be created</td>
+                    </tr>
+                    <tr>
+                        <td>disable-cactus-damage</td>
+                        <td>false</td>
+                        <td>Toggle whether players take damage when touching cactus</td>
+                    </tr>
+                    <tr>
+                        <td>disable-weather</td>
+                        <td>false</td>
+                        <td>Toggle whether weather events happen</td>
+                    </tr>
+                    <tr>
+                        <td>disable-mob-ai</td>
+                        <td>false</td>
+                        <td>Toggle whether mobs have AI</td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#16bd83"></td>
+                        <td bgcolor="#16bd83"></td>
+                        <td bgcolor="#16bd83"></td>
+                    </tr>
+                    <tr>
+                        <td>TacoSpigot Configuration</td>
+                        <td></td>
+                        <td></td>
+                    <tr>
+                    </tbody>
+                </table>
+
+
+            </div>
+        </div>
+        <!-- End Center Box -->
+
+    </div>
+</div>
+<!-- End Container -->
+
+</body>
+<script src="../lib/jquery3.4.0.js"></script>
+<script src="../lib/js_bootstrap3.4.0.js"></script>
+<script src="../particles/particles.js"></script>
+<script src="../particles/particles_config.js"></script>
+</html>
