@@ -39,7 +39,9 @@
             <div class="jumbotron">
                 <h2>ReliableSpigot Config Help</h2>
 
-                <h3>Non-World Settings</h3>
+                <h2>Non-World Settings</h2>
+
+                <h4>Optimizations</h4>
                 <table class="table table-bordered table-hover table-striped">
                     <thead class="thead-dark">
                     <tr>
@@ -64,64 +66,63 @@
                         <td>true</td>
                         <td>Enables optimized Schematica printer algorithms</td>
                     </tr>
+                    </tbody>
+                </table>
+
+                <h4>Spawner Settings</h4>
+                <table class="table table-bordered table-hover table-striped">
+                    <thead class="thead-dark">
                     <tr>
-                        <td bgcolor="#16bd83"></td>
-                        <td bgcolor="#16bd83"></td>
-                        <td bgcolor="#16bd83"></td>
+                        <th bgcolor="#16bd83" scope="col">Field</th>
+                        <th bgcolor="#16bd83" scope="col">Default</th>
+                        <th bgcolor="#16bd83" scope="col">Meaning</th>
                     </tr>
+                    </thead>
+                    <tbody>
                     <tr>
-                        <td>spawner.spawn-radius</td>
+                        <td>spawn-radius</td>
                         <td>4</td>
                         <td>How far the mobs can spawn away from the spawner</td>
                     </tr>
                     <tr>
-                        <td>spawner.player-afk-radius</td>
+                        <td>player-afk-radius</td>
                         <td>8</td>
                         <td>How far a player can stand near a spawner to work</td>
                     </tr>
                     <tr>
-                        <td>spawner.need-players-nearby</td>
+                        <td>need-players-nearby</td>
                         <td>true</td>
                         <td>If a player needs to be near a spawner for it to work</td>
                     </tr>
                     <tr>
-                        <td>spawner.minimum-spawn-ticks</td>
+                        <td>minimum-spawn-ticks</td>
                         <td>200</td>
                         <td>The least amount of ticks to spawn a mob from a spawner</td>
                     </tr>
                     <tr>
-                        <td>spawner.maximum-spawn-ticks</td>
+                        <td>maximum-spawn-ticks</td>
                         <td>800</td>
                         <td>The most amount of ticks to spawn a mob from a spawner</td>
                     </tr>
                     <tr>
-                        <td>spawner.spawn-count</td>
+                        <td>spawn-count</td>
                         <td>4</td>
                         <td>The amount of mobs to spawn per spawner activate</td>
                     </tr>
                     <tr>
-                        <td>spawner.max-nearby-entities</td>
+                        <td>max-nearby-entities</td>
                         <td>6</td>
                         <td>The amount of entities that can be near in order for the spawner to work</td>
                     </tr>
                     <tr>
-                        <td>spawner.tick-rate</td>
+                        <td>tick-rate</td>
                         <td>1</td>
                         <td>How often the server ticks the spawner (increase to spawn faster)</td>
-                    </tr>
-                    <tr>
-                        <td bgcolor="#16bd83"></td>
-                        <td bgcolor="#16bd83"></td>
-                        <td bgcolor="#16bd83"></td>
-                    </tr>
-                    <tr>
-                        <td>config-version</td>
-                        <td>1</td>
-                        <td>The version of the config to use (this doesn't do anything)</td>
                     </tr>
                     </tbody>
                 </table>
 
+                <h2>World Settings</h2>
                 <h4>PvP Settings</h4>
                 <table class="table table-bordered table-hover table-striped">
                     <thead>
@@ -392,6 +393,11 @@
                     </tr>
                     </thead>
                     <tbody>
+                    <tr>
+                        <td>disable-monster-egg-changes-spawner</td>
+                        <td>true</td>
+                        <td>Toggle whether right clicking a spawner with a monster egg changes its spawn-type to that mob (setting this to true also allows placing of creeper eggs on spawners)</td>
+                    </tr>
                     <tr>
                         <td>cactus-preage</td>
                         <td>0</td>
